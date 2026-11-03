@@ -1,0 +1,7 @@
+Patches/
+Patches.tar.gz
+data/
+cv_results/
+results_test/
+*.pt
+__pycache__/
