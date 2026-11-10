@@ -14,7 +14,6 @@ PyTorch reproduction of Ilse et al. (2018), [*Attention-based Deep Multiple Inst
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Limitations](#limitations)
-- [Roadmap](#roadmap)
 - [Notes on AI Assistance](#notes-on-ai-assistance)
 - [References](#references)
 
@@ -234,15 +233,6 @@ python analyze_attention.py cv_results                                 # Results
 - epithelial 드문 bag (89, 77, 70, 91)에서 attention 집중 약함. 원인 미확인
 - 하이퍼파라미터(epoch, lr) 튜닝 X
 - Colon 데이터: 전처리 공개본 사용 → 논문 전처리·분할과 다를 수 있음, 논문 수치와 직접 비교 어려움
-
-## Roadmap
-
-- [x] 교차검증 (층화 5-fold)
-- [x] 다중 시드 반복, 평균·분산 보고 (시드 3개)
-- [x] 패치 수 vs attention 분산 (bag 91) → 패치 수 무관, epithelial 비율과 관련
-- [ ] bag별 예측 확률 저장 → fold별 확률 분포·보정 확인
-- [ ] 특징 추출기 CNN → ViT 교체
-- [ ] (선택) Gated Attention, ACMIL
 
 ## Notes on AI Assistance
 
